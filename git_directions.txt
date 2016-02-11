@@ -26,3 +26,17 @@ origin	https://github.com/emchasen/learning.git (fetch)
 origin	https://github.com/emchasen/learning.git (push)
 ➜  folder_name git:(master) touch git_directions.txt 
 ➜  folder_name git:(master) ✗ 
+folder_name git:(master) ✗ git add -A
+➜  folder_name git:(master) ✗ git commit -m "added directions"
+[master c9ae7a0] added directions
+ 1 file changed, 28 insertions(+)
+ create mode 100644 git_directions.txt
+➜  folder_name git:(master) git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 766 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/emchasen/learning.git
+   1c3fe3d..c9ae7a0  master -> master
+➜  folder_name git:(master) 
