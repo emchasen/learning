@@ -1,0 +1,28 @@
+#1. Make a repo
+#2. On terminal, set working directory (folder name*)
+#3. Clone git site to working directory
+
+degree day data science git:(master) cd .. 
+➜  coursera  cd data\ scientist\ toolbox 
+➜  data scientist toolbox  git clone https://github.com/emchasen/learning.git folder_name
+Cloning into 'folder_name'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+➜  data scientist toolbox  ls
+2 - 4 - Introduction to Github (3-53).mp4
+2 - 5 - Creating a Github Repository (5-51).mp4
+2 - 6 - Basic Git Commands (5-52).mp4
+2 - 7 - Basic Markdown (2-22).mp4
+Github.docx
+course_project
+folder_name
+week 3.docx
+week2_CLI.docx
+➜  data scientist toolbox  cd folder_name 
+➜  folder_name git:(master) git remote -v
+origin	https://github.com/emchasen/learning.git (fetch)
+origin	https://github.com/emchasen/learning.git (push)
+➜  folder_name git:(master) touch git_directions.txt 
+➜  folder_name git:(master) ✗ 
